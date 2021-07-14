@@ -1,0 +1,23 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#container {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    padding: 20px;
+    color: white
+}
+
+p{
+	padding-bottom: 10px;
+	moz-transition: padding-top .3s ease-in;
+     -o-transition: padding-top  .3s ease-in;
+     -webkit-transition: padding-top  .3s ease-in;
+     transition: padding-top  .3s ease-in;
+}
